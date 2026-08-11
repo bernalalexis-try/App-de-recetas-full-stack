@@ -1,0 +1,38 @@
+.home {
+  padding-top: 48px;
+  padding-bottom: 80px;
+}
+
+.home__hero {
+  max-width: 560px;
+  margin-bottom: 40px;
+}
+
+.home__title {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 4.5vw, 42px);
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 10px 0 12px;
+}
+
+.home__subtitle {
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.home__estado {
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 40px 0;
+}
